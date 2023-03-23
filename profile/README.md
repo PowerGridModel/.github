@@ -6,7 +6,7 @@ SPDX-License-Identifier: MPL-2.0
 
 # Power Grid Model
 
-[![License: MPL2.0](https://img.shields.io/badge/License-MPL2.0-informational.svg)](../LICENSE)
+[![License: MPL2.0](https://img.shields.io/badge/License-MPL2.0-informational.svg)](https://github.com/PowerGridModel/.github/blob/main/LICENSE)
 
 Power Grid Model is a high-performance open-source project for steady-state distribution power system analysis.
 
@@ -36,7 +36,7 @@ This project matches this above by providing with following strengths:
 This project is licensed under the Mozilla Public License, version 2.0.
 
 ## Contributing
-Please read [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md), [CONTRIBUTING.md](../CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](../PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
+Please read [CODE_OF_CONDUCT.md](https://github.com/PowerGridModel/.github/blob/main/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](https://github.com/PowerGridModel/.github/blob/main/PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
 
 ## Contact
-Please read [SUPPORT.md](../SUPPORT.md) for how to connect and get into contact with the Power Grid Model project.
+Please read [SUPPORT.md](https://github.com/PowerGridModel/.github/blob/main/SUPPORT.md) for how to connect and get into contact with the Power Grid Model project.
