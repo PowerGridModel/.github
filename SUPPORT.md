@@ -15,10 +15,10 @@ There are a few ways to connect with the Power Grid Model project:
 
 If you have trouble installing, building, or using Power Grid Model, 
 but there's not yet reason to suspect you've encountered a genuine bug,
-you can ask a question in the Discussions tab of the repository.
+you can ask a question in the [Discussions](https://github.com/orgs/PowerGridModel/discussions) tab of the organization.
 
 If you have an idea for a new feature or some recommendations for existing features or documentations, 
-you can also propose it in the Discussions tab.
+you can also propose it in the [Discussions](https://github.com/orgs/PowerGridModel/discussions) tab.
 
 ## How to report a bug
 
