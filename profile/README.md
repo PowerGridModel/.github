@@ -26,7 +26,7 @@ Want to join the discussion? Join our [discussion board](https://github.com/orgs
 
 To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
 
-This project matches this above by providing with following strengths:
+This project matches this demand by providing with following strengths:
 
 - Optimized algorithms for the characteristics of the distribution grid.
 - Full support of three-phase asymmetric calculation.
