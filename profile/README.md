@@ -10,8 +10,6 @@ SPDX-License-Identifier: MPL-2.0
 
 Power Grid Model is a high-performance open-source project for steady-state distribution power system analysis.
 
-For transimission grid calculation, please refer to the [powsybl](https://www.powsybl.org/) project.
-
 Find the latest information on the project on `TODO: the project's website`.
 
 The calculation core package `power-grid-model` is available at [PyPI repository](https://pypi.org/project/power-grid-model/), 
@@ -32,8 +30,13 @@ This project matches this above by providing with following strengths:
 - Full support of three-phase asymmetric calculation.
 - Efficient C++ implementation with native parallel computing support.
 
+**_NOTE:_** Looking for a project for transimission power system analysis, please also take a look at [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow). This another LF Energy initiative that focuses on the transmission grid.  
+
 ## License
-This project is licensed under the Mozilla Public License, version 2.0.
+This project is licensed under the Mozilla Public License, version 2.0 - see [LICENSE](https://github.com/PowerGridModel/.github/blob/main/LICENSE) for details.
+
+## Licenses third-party libraries
+This project includes third-party libraries, which are licensed under their own respective Open-Source licenses. SPDX-License-Identifier headers are used to show which license is applicable. The concerning license files can be found in the LICENSES directory.
 
 ## Contributing
 Please read [CODE_OF_CONDUCT.md](https://github.com/PowerGridModel/.github/blob/main/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](https://github.com/PowerGridModel/.github/blob/main/PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
