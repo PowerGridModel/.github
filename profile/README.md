@@ -24,13 +24,13 @@ Want to join the discussion? Join our [discussion board](https://github.com/orgs
 
 To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
 
-This project matches this demand by providing with following strengths:
+This project matches the demand by providing with following strengths:
 
 - Optimized algorithms for the characteristics of the distribution grid.
 - Full support of three-phase asymmetric calculation.
 - Efficient C++ implementation with native parallel computing support.
 
-**_NOTE:_** Looking for a project for transimission power system analysis, please also take a look at [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow). This another LF Energy initiative that focuses on the transmission grid.  
+**_NOTE:_** Looking for a project for transimission power system analysis, please also take a look at [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow). This is another LF Energy initiative that focuses on the transmission grid.  
 
 ## License
 This project is licensed under the Mozilla Public License, version 2.0 - see [LICENSE](https://github.com/PowerGridModel/.github/blob/main/LICENSE) for details.
