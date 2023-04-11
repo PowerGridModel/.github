@@ -8,7 +8,7 @@ SPDX-License-Identifier: MPL-2.0
 
 [![License: MPL2.0](https://img.shields.io/badge/License-MPL2.0-informational.svg)](https://github.com/PowerGridModel/.github/blob/main/LICENSE)
 
-![](https://github.com/PowerGridModel/.github/blob/main/artwork/svg/color.svg)
+[![](https://github.com/PowerGridModel/.github/blob/main/artwork/svg/color.svg)](#)
 
 Power Grid Model is a high-performance open-source project for steady-state distribution power system analysis.
 
