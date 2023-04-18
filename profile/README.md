@@ -13,6 +13,7 @@ SPDX-License-Identifier: MPL-2.0
 Power Grid Model is a high-performance open-source project for steady-state distribution power system analysis.
 
 Find the latest information on the project on `TODO: the project's website`.
+Please also subscribe our [mailing list](https://lists.lfenergy.org/g/powergridmodel) to be kept updated.
 
 The calculation core package `power-grid-model` is available at [PyPI repository](https://pypi.org/project/power-grid-model/), 
 with its [documentation](https://power-grid-model.readthedocs.io/).
@@ -20,7 +21,7 @@ with its [documentation](https://power-grid-model.readthedocs.io/).
 The data conversion package `power-grid-model-io` is available at [PyPI repository](https://pypi.org/project/power-grid-model-io/),
 with its [documentation](https://power-grid-model-io.readthedocs.io/).
 
-Want to join the discussion? Join our [discussion board](https://github.com/orgs/PowerGridModel/discussions).
+Want to join the discussion? Look at our [discussion board](https://github.com/orgs/PowerGridModel/discussions)!
 
 ## Description
 
