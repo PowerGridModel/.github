@@ -7,6 +7,7 @@ SPDX-License-Identifier: MPL-2.0
 # Power Grid Model
 
 [![License: MPL2.0](https://img.shields.io/badge/License-MPL2.0-informational.svg)](https://github.com/PowerGridModel/.github/blob/main/LICENSE)
+[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7298/badge)](https://bestpractices.coreinfrastructure.org/projects/7298)
 
 [![](https://github.com/PowerGridModel/.github/blob/main/artwork/svg/color.svg)](#)
 
