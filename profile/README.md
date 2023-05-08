@@ -11,7 +11,7 @@ SPDX-License-Identifier: MPL-2.0
 
 [![](https://github.com/PowerGridModel/.github/blob/main/artwork/svg/color.svg)](#)
 
-Power Grid Model is a high-performance open-source project for steady-state distribution power system analysis.
+Power Grid Model is an open-source project aiming for high-performance calculation of steady-state distribution power system.
 
 This project is part of [Linux Foundation Energy](https://lfenergy.org/projects/power-grid-model/).
 Please subscribe our [mailing list](https://lists.lfenergy.org/g/powergridmodel) to be kept updated.
