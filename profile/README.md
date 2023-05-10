@@ -43,7 +43,7 @@ This project is licensed under the Mozilla Public License, version 2.0 - see [LI
 This project includes third-party libraries, which are licensed under their own respective Open-Source licenses. SPDX-License-Identifier headers are used to show which license is applicable. The concerning license files can be found in the LICENSES directory.
 
 ## Contributing
-Please read [CODE_OF_CONDUCT.md](https://github.com/PowerGridModel/.github/blob/main/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) and [GOVERNANACE.md](https://github.com/PowerGridModel/.github/blob/main/GOVERNANCE.md) for details on the process for submitting pull requests to us.
+Please read [CODE_OF_CONDUCT.md](https://github.com/PowerGridModel/.github/blob/main/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) and [GOVERNANCE.md](https://github.com/PowerGridModel/.github/blob/main/GOVERNANCE.md) for details on the process for submitting pull requests to us.
 
 ## Contact
 Please read [SUPPORT.md](https://github.com/PowerGridModel/.github/blob/main/SUPPORT.md) for how to connect and get into contact with the Power Grid Model project.
