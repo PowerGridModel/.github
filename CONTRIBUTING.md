@@ -23,6 +23,8 @@ We recognize different levels of contributions as shown below in increasing orde
     1. Develop new mathematical algorithms
     1. Improve or add new features into the C++ codebase
 
+A good place to start is to look at issues with the `good first issue` label, or to check the [Power Grid Model](https://github.com/orgs/PowerGridModel/projects/1) project.
+
 ## Filing bugs and change requests
 
 You can file bugs against and change request for the project via GitHub issues. Consult [GitHub Help](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/creating-an-issue) for more
