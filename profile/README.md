@@ -16,10 +16,10 @@ Power Grid Model is an open-source project aiming for high-performance calculati
 This project is part of [Linux Foundation Energy](https://lfenergy.org/projects/power-grid-model/).
 Please subscribe our [mailing list](https://lists.lfenergy.org/g/powergridmodel) to be kept updated.
 
-The calculation core package `power-grid-model` is available at [PyPI repository](https://pypi.org/project/power-grid-model/), 
+The calculation core package [`power-grid-model`](https://github.com/PowerGridModel/power-grid-model) is available at [PyPI repository](https://pypi.org/project/power-grid-model/), 
 with its [documentation](https://power-grid-model.readthedocs.io/).
 
-The data conversion package `power-grid-model-io` is available at [PyPI repository](https://pypi.org/project/power-grid-model-io/),
+The data conversion package [`power-grid-model-io`](https://github.com/PowerGridModel/power-grid-model-io) is available at [PyPI repository](https://pypi.org/project/power-grid-model-io/),
 with its [documentation](https://power-grid-model-io.readthedocs.io/).
 
 Want to join the discussion? Look at our [discussion board](https://github.com/orgs/PowerGridModel/discussions)!
@@ -45,5 +45,9 @@ This project includes third-party libraries, which are licensed under their own 
 ## Contributing
 Please read [CODE_OF_CONDUCT.md](https://github.com/PowerGridModel/.github/blob/main/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) and [GOVERNANCE.md](https://github.com/PowerGridModel/.github/blob/main/GOVERNANCE.md) for details on the process for submitting pull requests to us.
 
+## Citations
+If you are using Power Grid Model in your research work, please consider citing our library using the references in [CITATION.md](https://github.com/PowerGridModel/.github/blob/main/CITATION.md).
+
 ## Contact
+
 Please read [SUPPORT.md](https://github.com/PowerGridModel/.github/blob/main/SUPPORT.md) for how to connect and get into contact with the Power Grid Model project.
