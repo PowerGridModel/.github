@@ -7,7 +7,7 @@ No effort will be spent on backporting bug fixes to previous versions!**
 
 | Version            | Supported          |
 | ------------------ | ------------------ |
-| lasted `main`      | :white_check_mark: |
+| last `main`        | :white_check_mark: |
 | all other releases | :x:                |
 
 ## Reporting a Vulnerability
