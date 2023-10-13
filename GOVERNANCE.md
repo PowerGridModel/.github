@@ -23,6 +23,7 @@ The TSC consists of the following members:
 1. Tony Xiang
 1. Werner van Westering
 1. Jonas van den Bogaard
+1. Peter Salemink
 
 Tony Xiang will chair the TSC.
 
@@ -43,7 +44,11 @@ Maintainers are responsible for maintaining parts of the code-base. Maintainers 
 The current maintainers of this project are:
 1. Tony Xiang
 1. Peter Salemink
-1. Bram Stoeller
+1. Nitish Bharambe
+1. Martijn Govers
+1. Laurynas Jagutis
+1. Chenguang Wang
+1. Zhen Wang
 
 Any community member or Contributor can ask a question or raise an issue to the maintainers by logging a GitHub issue.
 
