@@ -1,5 +1,5 @@
 ---
-name: Release template
+name: Release checklist
 about: Create a report to help us improve
 title: "[Release] vx.y.z"
 labels: 'feature'
