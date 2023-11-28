@@ -49,6 +49,7 @@ The current maintainers of this project are:
 1. Laurynas Jagutis
 1. Chenguang Wang
 1. Zhen Wang
+1. Jerry Guo
 
 Any community member or Contributor can ask a question or raise an issue to the maintainers by logging a GitHub issue.
 
