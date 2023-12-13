@@ -56,7 +56,7 @@ Furthermore, the following conventions apply:
 
 ### C++
 
-This project uses Google Format Style (NOTE: not Google C++ Programming Style) to format the C++ code.
+This project follows [LLVM coding standards](https://llvm.org/docs/CodingStandards.html) for formatting the C++ code.
 
 Tip: Use [clang-format](https://clang.llvm.org/docs/ClangFormat.html) to format your C++ code.
 
@@ -94,7 +94,6 @@ All the files in the repository need to be [REUSE compliant](https://reuse.softw
 We use the pipeline to automatically check this.
 If there are files which are not complying, the pipeline will fail and the pull request will be blocked.
 
-
 ## Git branching
 
 This project uses the [GitHub flow Workflow](https://guides.github.com/introduction/flow/) and branching model. 
@@ -105,7 +104,6 @@ When a feature/fix is finished it is merged back into `main` via a
 
 In case of major version release with new features and/or breaking changes, we might temporarily create a 
 `release/` branch to hold all the changes until they are merged into `main`.
-
 
 ## Signing the Developer Certificate of Origin (DCO)
 
@@ -138,7 +136,6 @@ use GitHub pull requests for this purpose. Consult the pull request process belo
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests
 
-
 ## Pull Request Process
 Contributions should be submitted as Github pull requests. See [Creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) if you're unfamiliar with this concept.
 
@@ -153,7 +150,6 @@ The process for a code change and pull request you should follow:
 the work. For more information see the Code review guideline.
 1. Upon receiving the sign-off of one of the maintainers you may merge your changes, or if you
    do not have permission to do that, you may request a maintainer to merge it for you.
-
 
 ## Attribution
 

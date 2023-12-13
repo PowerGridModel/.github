@@ -20,6 +20,7 @@ The Technical Steering Committee (TSC) is responsible for:
 1. Raise subjects/issues that are important for the direction/development of this project
 
 The TSC consists of the following members:
+
 1. Tony Xiang
 1. Werner van Westering
 1. Jonas van den Bogaard
@@ -42,6 +43,7 @@ Maintainers are responsible for maintaining parts of the code-base. Maintainers 
 1. In case of long discussions or arguments, maintainers or other can request a community council decision.
 
 The current maintainers of this project are:
+
 1. Tony Xiang
 1. Peter Salemink
 1. Nitish Bharambe

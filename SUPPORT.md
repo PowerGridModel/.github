@@ -29,18 +29,20 @@ The various issue templates will guide you on making an effective report.
 
 In many cases the problem is in the input data. 
 We have an extensive input data validity check to help you with this.
-Please refer to this [notebook](https://power-grid-model.readthedocs.io/en/stable/examples/Validation%20Examples.html).
+Please refer to the [data validator documentation](https://power-grid-model.readthedocs.io/en/stable/user_manual/data-validator.html)
+and [this example notebook](https://power-grid-model.readthedocs.io/en/stable/examples/Validation%20Examples.html) for details.
 
 ### Dump input/output data
 
 To effectively report an issue we need a data dump of input and output.
-Please refer to this [notebook](https://power-grid-model.readthedocs.io/en/stable/examples/Make%20Test%20Dataset.html) on how to do it.
+Please refer to [this example notebook](https://power-grid-model.readthedocs.io/en/stable/examples/Make%20Test%20Dataset.html) on how to do it.
 
 ## How to report a security vulnerability
 
 If you think you've found a potential vulnerability in this project, please
 email <powergridmodel-tsc@lists.lfenergy.org> to responsibly disclose it.
+See also [SECURITY.md](./SECURITY.md) for details.
 
 ## Contributing a fix
 
-Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) to make a project contribution.
+Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to make a project contribution.
