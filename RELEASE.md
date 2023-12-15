@@ -45,5 +45,5 @@ For the actively supported versions as of December 2023, the following release c
 | Python 3.11    | January 2026                             |
 | Python 3.12    | January 2027                             |
 
-After support for Python 3.9 is dropped, the expected life time for active support for a given
-Python version is three years and three months after it comes out.
+Starting with Python 3.10, the expected date of end of active support for a given Python version
+is three years and three months after it comes out.
