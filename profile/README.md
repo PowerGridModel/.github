@@ -41,24 +41,16 @@ This project matches the demand by providing with following strengths:
 **_NOTE:_** Looking for a project for transimission power system analysis, please also take a look at [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow). This is another LF Energy initiative that focuses on the transmission grid.  
 
 ## License
-
 This project is licensed under the Mozilla Public License, version 2.0 - see [LICENSE](https://github.com/PowerGridModel/.github/blob/main/LICENSE) for details.
 
 ## Licenses third-party libraries
-
 This project includes third-party libraries, which are licensed under their own respective Open-Source licenses. SPDX-License-Identifier headers are used to show which license is applicable. The concerning license files can be found in the LICENSES directory.
 
 ## Contributing
-
 Please read [CODE_OF_CONDUCT.md](https://github.com/PowerGridModel/.github/blob/main/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) and [GOVERNANCE.md](https://github.com/PowerGridModel/.github/blob/main/GOVERNANCE.md) for details on the process for submitting pull requests to us.
 
 ## Citations
-
 If you are using Power Grid Model in your research work, please consider citing our library using the references in [CITATION.md](https://github.com/PowerGridModel/.github/blob/main/CITATION.md).
-
-## Security policy and release strategy
-
-For our security policy and release strategy, please visit [SECURITY.md](https://github.com/PowerGridModel/.github/blob/main/SECURITY.md) and [RELEASE.md](https://github.com/PowerGridModel/.github/blob/main/RELEASE.md), respectively.
 
 ## Contact
 
