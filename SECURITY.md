@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Contributors to the Power Grid Model project <dynamic.grid.calculation@alliander.com>
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
 # Security Policy
 
 ## Supported Versions
@@ -9,6 +15,8 @@ No effort will be spent on backporting bug fixes to previous versions!**
 | ------------------ | ------------------ |
 | last `main`        | :white_check_mark: |
 | all other releases | :x:                |
+
+In addition, Python libraries in this project are only released for [recent Python versions](./RELEASE.md#supported-python-versions).
 
 ## Reporting a Vulnerability
 
