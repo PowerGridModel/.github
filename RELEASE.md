@@ -39,11 +39,11 @@ For the actively supported versions as of December 2023, the following release c
 
 | Python version | Currently supported | Scheduled/expected end of active support |
 | -------------- | ------------------- | ---------------------------------------- |
-| Python 3.8     | :x: dropped 10-Jan-2024 | January 2024                             |
-| Python 3.9     | :heavy_check_mark:  | July 2024                                |
-| Python 3.10    | :heavy_check_mark:  | January 2025                             |
-| Python 3.11    | :heavy_check_mark:  | January 2026                             |
-| Python 3.12    | :heavy_check_mark:  | January 2027                             |
+| Python 3.8     | :x:                 | 10-January-2024 (dropped)                |
+| Python 3.9     | :heavy_check_mark:  | July 2024 (expected)                     |
+| Python 3.10    | :heavy_check_mark:  | January 2025 (expected)                  |
+| Python 3.11    | :heavy_check_mark:  | January 2026 (expected)                  |
+| Python 3.12    | :heavy_check_mark:  | January 2027 (expected)                  |
 
 Starting with Python 3.10, the expected date of end of active support for a given Python version
 is three years and three months after it comes out.
