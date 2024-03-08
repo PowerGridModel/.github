@@ -13,8 +13,6 @@ build and upload a new version to PyPI with a unique version number.
 **All the bug fixes will be committed directly into the `main` branch and published in the latest release. 
 No effort will be spent on backporting bug fixes to previous versions!**
 
-**NOTE: Release candidate versions are for testing only. You should not use them in production!**
-
 ## Actively supported Python versions
 
 Core Python libraries in this project are released for at least the latest three stable Python versions.
