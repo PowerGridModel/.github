@@ -8,8 +8,8 @@ SPDX-License-Identifier: MPL-2.0
 
 There are a few ways to connect with the Power Grid Model project:
 
-* Submit an issue
-* Send an email to the Technical Steering Committee: <powergridmodel-tsc@lists.lfenergy.org>.
+* Post a discussion in the [Discussions](https://github.com/orgs/PowerGridModel/discussions) tab of the organization.
+* Submit an issue in the individual repository
 
 ## How to ask for help, suggest a feature, or give recommendations.
 
