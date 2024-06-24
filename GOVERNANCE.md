@@ -25,6 +25,7 @@ The TSC consists of the following members:
 1. Werner van Westering
 1. Jonas van den Bogaard
 1. Peter Salemink
+1. Jaap Schouten
 
 Tony Xiang will chair the TSC.
 
@@ -53,6 +54,8 @@ The current maintainers of this project are:
 1. Zhen Wang
 1. Jerry Guo
 1. Santiago Figueroa Manrique
+1. Jaap Schouten
+1. Thijs Baaijen
 
 Any community member or Contributor can ask a question or raise an issue to the maintainers by logging a GitHub issue.
 
