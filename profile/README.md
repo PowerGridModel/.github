@@ -38,7 +38,7 @@ This project matches the demand by providing with following strengths:
 - Full support of three-phase asymmetric calculation.
 - Efficient C++ implementation with native parallel computing support.
 
-**_NOTE:_** Looking for a project for transimission power system analysis, please also take a look at [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow). This is another LF Energy initiative that focuses on the transmission grid.  
+**_NOTE:_** Looking for a project for transmission power system analysis, please also take a look at [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow). This is another LF Energy initiative that focuses on the transmission grid.  
 
 ## License
 
