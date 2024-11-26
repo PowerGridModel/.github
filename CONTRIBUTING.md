@@ -16,6 +16,7 @@ Contribution does not necessarily mean committing code to the repository.
 We recognize different levels of contributions as shown below in increasing order of dedication:
 
 1. Test and use the library. Give feedback on the user experience or suggest new features.
+    1. Please select the project Power Grid Model when creating feature requests on Github.
 2. Validate the model against other existing libraries. Provide validation test cases.
 3. Report bugs.
 4. Improve the Python interface or helper functions.
@@ -29,6 +30,7 @@ A good place to start is to look at issues with the `good first issue` label, or
 
 You can file bugs against and change request for the project via GitHub issues. Consult [GitHub Help](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/creating-an-issue) for more
 information on using GitHub issues.
+Please select the project Power Grid Model when creating issues on Github.
 
 ## Community Guidelines
 
@@ -145,7 +147,15 @@ The process for a code change and pull request you should follow:
 "feature/###" or "fix/###". For more information see the Git branching guideline.
 1. Make changes, compile, and test thoroughly. Ensure any install or build dependencies are removed before the end of the layer when doing a build. Code style should match existing style and conventions, and changes should be focused on the topic the pull request will be addressed. For more information see the style guide.
 1. Push commits to your fork.
-1. Create a Github pull request from your topic branch.
+1. Create a Github pull request from your topic branch, following the steps below:
+    1. Name your PR with "{Feature or EPIC name}: {title for your PR}": e.g., "Step-up transformer tap changer support: updated ranking"
+        1. If the PR is one-off and there is no bigger feature it belongs to, "{title for your PR}" suffices
+    2. Assign yourself to this PR
+    3. Optionally request reviews from reviewers
+    4. **Add label** to the PR
+    5. **Do not** specify Project: leave it blank
+    6. If there is an issue / feature request, link them by either mentioning "Relates to ###", "Closes ###" (in the case of actually closing the issue) or selecting it in Development
+        1. Check in the issue / feature request to see whether the link works
 1. Pull requests will be reviewed by one of the maintainers who may discuss, offer constructive feedback, request changes, or approve
 the work. For more information see the Code review guideline.
 1. Upon receiving the sign-off of one of the maintainers you may merge your changes, or if you
