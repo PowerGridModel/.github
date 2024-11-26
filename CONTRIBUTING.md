@@ -145,7 +145,14 @@ The process for a code change and pull request you should follow:
 "feature/###" or "fix/###". For more information see the Git branching guideline.
 1. Make changes, compile, and test thoroughly. Ensure any install or build dependencies are removed before the end of the layer when doing a build. Code style should match existing style and conventions, and changes should be focused on the topic the pull request will be addressed. For more information see the style guide.
 1. Push commits to your fork.
-1. Create a Github pull request from your topic branch.
+1. Create a Github pull request from your topic branch, following the steps below:
+    1. Name your PR with "{Feature or EPIC name}" + ": " + "{title for this particular PR}": e.g., "Step-up transformer tap changer support: updated ranking"
+    2. Assign yourself to this PR
+    3. Optionally request reviews from reviewers
+    4. **Add label** to the PR
+    5. **Do not** specify Project: leave it blank
+    6. If there is an issue / feature request, link them by either mentioning "Closes ###" or selecting it in Development
+        1. Check in the issue / feature request to see whether the link works
 1. Pull requests will be reviewed by one of the maintainers who may discuss, offer constructive feedback, request changes, or approve
 the work. For more information see the Code review guideline.
 1. Upon receiving the sign-off of one of the maintainers you may merge your changes, or if you
