@@ -39,7 +39,7 @@ This project follows the following [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Style Guide
 
 For both C++ and Python code we use the pipeline to automatically check the formatting.
-We use `black` to check Python code and `clang-format` to check C++ code.
+We use `black` or `ruff` (depending on the repo) to check Python code and `clang-format` to check C++ code.
 If the code format is not complying, the pipeline will fail the pull request will be blocked.
 
 ### Python
