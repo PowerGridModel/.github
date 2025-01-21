@@ -24,6 +24,9 @@ with its [documentation](https://power-grid-model.readthedocs.io/).
 The data conversion package [`power-grid-model-io`](https://github.com/PowerGridModel/power-grid-model-io) is available at [PyPI repository](https://pypi.org/project/power-grid-model-io/),
 with its [documentation](https://power-grid-model-io.readthedocs.io/).
 
+The data science package [`power-grid-model-ds`](https://github.com/PowerGridModel/power-grid-model-ds) is available at [PyPI repository](https://pypi.org/project/power-grid-model-ds/),
+with its [documentation](https://power-grid-model-ds.readthedocs.io/).
+
 Please have a look at the [workshop](https://github.com/PowerGridModel/power-grid-model-workshop) to see some examples and tutorials.
 
 Want to join the discussion? Look at our [discussion board](https://github.com/orgs/PowerGridModel/discussions)!
