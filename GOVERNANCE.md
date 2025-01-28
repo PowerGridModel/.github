@@ -27,7 +27,7 @@ The TSC consists of the following members:
 1. Peter Salemink
 1. Jaap Schouten
 
-Tony Xiang will chair the TSC.
+Peter Salemink will chair the TSC.
 
 Any community member or Contributor can ask that something 
 be reviewed by the TSC by contacting the TSC at <dynamic.grid.calculation@alliander.com>.
