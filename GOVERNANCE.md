@@ -90,3 +90,9 @@ in this project before it became open source:
 * Démian Janssen
 * Peter Salemink
 * Tony Xiang
+
+## PyPI project management
+
+Our Python projects are published on PyPI. On PyPI we have the following roles:
+- Owner: (part of) the TSC is owner of the project
+- Maintainer: the maintainers are also maintainer of PyPI projects
