@@ -102,6 +102,7 @@ You can automatically add reuse compliance to a file with the following command:
 ```shell
 reuse annotate --copyright "Contributors to the Power Grid Model project <powergridmodel@lfenergy.org>" --license "MPL-2.0" --fallback-dot-license <path_to_file>
 ```
+
 **Tip**: save the command as an alias for easy use!
 
 ## Git branching
