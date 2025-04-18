@@ -97,6 +97,7 @@ We use the pipeline to automatically check this.
 If there are files which are not complying, the pipeline will fail and the pull request will be blocked.
 
 #### Auto-annotate
+
 You can automatically add reuse compliance to a file with the following command:
 ```shell
 reuse annotate --copyright "Contributors to the Power Grid Model project <powergridmodel@lfenergy.org>" --license "MPL-2.0" --fallback-dot-license <path_to_file>
