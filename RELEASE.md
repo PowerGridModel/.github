@@ -9,8 +9,8 @@ SPDX-License-Identifier: MPL-2.0
 This project uses a rolling release strategy on the `main` branch.
 A new push (merge) to the `main` branch will trigger GitHub Actions to automatically 
 build and upload a new version to PyPI with a unique version number. In
-addition, we may create alpha candidates that are not released, manually
-via workflow dispatch, for testing purposes only.
+addition, we may manually create alpha (pre-)releases for testing purposes only
+via workflow dispatch.
 
 **All the bug fixes will be committed directly into the `main` branch and published in the latest release. 
 No effort will be spent on backporting bug fixes to previous versions!**
