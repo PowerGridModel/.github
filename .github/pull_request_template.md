@@ -15,3 +15,7 @@
 - 
 - 
 - ..
+
+### Checks
+
+- [ ] If changes are related to CI/CD, are they verified via a manual run on this branch?
