@@ -6,14 +6,41 @@ SPDX-License-Identifier: MPL-2.0
 
 # Release strategy
 
+This project uses a semantic versioning release strategy.
+All major and minor features will be announced via our communication channels.
+
+- **Major** version bumps contain:
+  - Breaking changes
+  - Removal of features that were marked deprecated in a previous version and are expected to affect users
+- **Minor** version bumps contain:
+  - New features with full support
+  - Removal of minor features that were marked deprecated in a previous version
+    and that are unlikely to affect users significantly
+- **Patch** version bumps may contain:
+  - Bug fixes
+  - Deprecations (no removal!)
+  - Small quality-of-life improvements
+  - Experimental/preview features
+  - Performance improvements
+  - Improvements to the code that do not affect the user
+
+Some additional remarks:
+
+- Deprecated behavior shall be signalled via a deprecation warning.
+- The maintainers of the [power-grid-model](https://github.com/PowerGridModel/power-grid-model)
+  core package shall use the option to remove deprecated behavior in minor version bumps very sparingly.
+- In more feature-rich packages, like [power-grid-model-ds](https://github.com/PowerGridModel/power-grid-model-ds)
+  and [power-grid-model-io](https://github.com/PowerGridModel/power-grid-model-io), removal may be slightly more common
+  due to their nature and focus on usability.
+
 This project uses a rolling release strategy on the `main` branch.
-A new push (merge) to the `main` branch will trigger GitHub Actions to automatically 
+A new push (merge) to the `main` branch will trigger GitHub Actions to automatically
 build and upload a new version to PyPI with a unique version number. In
 addition, we may manually create alpha (pre-)releases for testing purposes only
 via workflow dispatch.
 
-**All the bug fixes will be committed directly into the `main` branch and published in the latest release. 
-No effort will be spent on backporting bug fixes to previous versions!**
+**All the bug fixes will be committed directly into the `main` branch and published in the latest release.**
+**No effort will be spent on backporting bug fixes to previous versions!**
 
 ## Actively supported Python versions
 
