@@ -19,8 +19,9 @@ We recognize different levels of contributions as shown below in increasing orde
     1. Please select the project Power Grid Model when creating feature requests on Github.
 2. Validate the model against other existing libraries. Provide validation test cases.
 3. Report bugs.
-4. Improve the Python interface or helper functions.
-5. Contributing to the C++ core
+4. Update documentation.
+5. Improve the Python interface or helper functions.
+6. Contributing to the C++ core
     1. Develop new mathematical algorithms
     1. Improve or add new features into the C++ codebase
 
