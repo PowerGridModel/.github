@@ -32,7 +32,6 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 - TU Delft
 - Universidad Tecnologica de Pereira​
 - VT Electron
-- WEMAG Netz GmbH​
 - XM S.A. E.S.P.
 
 ## Integration of Power Grid Model in other open-source tooling:
