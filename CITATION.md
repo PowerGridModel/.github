@@ -47,4 +47,13 @@ If you are using Power Grid Model in your research work, please consider citing 
   keywords={},
   doi={10.1049/icp.2023.0633}
 }
+@inproceedings{Xiang2025,
+title = "Preventing Congestion in the Electricity Grid using OpenSTEF and Power Grid Model",
+author = "Yu Xiang and Peter Salemink and Frank Kreuwel and \{van den Bogaard\}, Jonas and \{van Es\}, \{Daniel Marten\}",
+year = "2025",
+month = sep,
+day = "29",
+language = "English",
+booktitle = "CIGRE 2025 International Symposium",
+}
 ```
