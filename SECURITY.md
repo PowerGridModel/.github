@@ -22,4 +22,8 @@ In addition, Python libraries in this project are only released for [recent Pyth
 
 This project is a calculation library without network connection or authentications.
 There could be however vulnerabilities in the form of (C++) bugs.
+Please refer to our assurance case regarding
+[different types of bugs and vulnerabilities](https://power-grid-model.readthedocs.io/en/stable/advanced_documentation/terminology.html#bug)
+and [undefined behavior](https://power-grid-model.readthedocs.io/en/stable/advanced_documentation/terminology.html#undefined-behavior),
+as well as the respective trust boundaries.
 You can report the vulnerabilities in the issues as a bug.
