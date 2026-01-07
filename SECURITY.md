@@ -20,10 +20,32 @@ In addition, Python libraries in this project are only released for [recent Pyth
 
 ## Reporting a Vulnerability
 
+This project contains multiple repositories, each with different responsibilities, and therefore also different risks
+regarding vulnerabilities.
+You can report the vulnerabilities in the issues as a bug.
+
+### power-grid-model
+
+[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7298/badge)](https://bestpractices.coreinfrastructure.org/projects/7298)
+
 This project is a calculation library without network connection or authentications.
 There could be however vulnerabilities in the form of (C++) bugs.
 Please refer to our assurance case regarding
 [different types of bugs and vulnerabilities](https://power-grid-model.readthedocs.io/en/stable/advanced_documentation/terminology.html#bug)
 and [undefined behavior](https://power-grid-model.readthedocs.io/en/stable/advanced_documentation/terminology.html#undefined-behavior),
 as well as the respective trust boundaries.
+You can report the vulnerabilities in the issues as a bug.
+
+### power-grid-model-ds
+
+TBD
+
+### power-grid-model-io
+
+This project contains user configuration in the form of custom mappings and filters via a YAML file.
+To prevent code injection during loading, `yaml.safe_load` is used.
+In addition, only execution of specific white-listed functions and modules is allowed.
+Please refer to the relevant
+[security considerations](https://power-grid-model-io.readthedocs.io/en/stable/converters/tabular_converter.html#security-considerations)
+for more information.
 You can report the vulnerabilities in the issues as a bug.
