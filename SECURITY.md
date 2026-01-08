@@ -50,7 +50,7 @@ If the visualizer is installed and used, note that it runs a local web server an
 [`power-grid-model-io`](https://github.com/PowerGridModel/power-grid-model-io) is a data conversion library and
 constains user configuration in the form of custom mappings and filters via a YAML file.
 To prevent code injection during loading, `yaml.safe_load` is used.
-In addition, only execution of specific white-listed functions and modules is allowed.
+In addition, execution is restricted to specific white-listed functions and modules.
 Please refer to the relevant
 [security considerations](https://power-grid-model-io.readthedocs.io/en/stable/converters/tabular_converter.html#security-considerations)
 for more information.
