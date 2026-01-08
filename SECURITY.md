@@ -28,8 +28,9 @@ You can report the vulnerabilities in the issues as a bug.
 
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7298/badge)](https://bestpractices.coreinfrastructure.org/projects/7298)
 
-This project is a calculation library without network connection or authentications.
-There could be however vulnerabilities in the form of (C++) bugs.
+[`power-grid-model`](https://github.com/PowerGridModel/power-grid-model) is a calculation library without network
+connection or authentications.
+It is, however, possible that there are vulnerabilities in the form of (C++) bugs.
 Please refer to our assurance case regarding
 [different types of bugs and vulnerabilities](https://power-grid-model.readthedocs.io/en/stable/advanced_documentation/terminology.html#bug)
 and [undefined behavior](https://power-grid-model.readthedocs.io/en/stable/advanced_documentation/terminology.html#undefined-behavior),
@@ -38,11 +39,16 @@ You can report the vulnerabilities in the issues as a bug.
 
 ### power-grid-model-ds
 
-TBD
+[`power-grid-model-ds`](https://github.com/PowerGridModel/power-grid-model-ds) is a data science library that processes
+datasets and configuration that may be user-provided.
+Treat all external inputs as untrusted, validate formats/schemas where possible, and avoid unsafe deserialization
+(e.g. `pickle`) for untrusted files.
+If the visualizer is installed and used, note that it runs a local web server and opens a TCP port.
 
 ### power-grid-model-io
 
-This project contains user configuration in the form of custom mappings and filters via a YAML file.
+[`power-grid-model-io`](https://github.com/PowerGridModel/power-grid-model-io) is a data conversion library and user
+configuration in the form of custom mappings and filters via a YAML file.
 To prevent code injection during loading, `yaml.safe_load` is used.
 In addition, only execution of specific white-listed functions and modules is allowed.
 Please refer to the relevant
