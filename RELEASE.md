@@ -70,4 +70,4 @@ For the actively supported versions as of January 2025, the following release cy
 | Python 3.14    | &#9989;             | January 2029 (expected)                  |
 
 Starting with Python 3.10, the expected date of end of active support for a given Python version
-is three years and three months after it comes out.
+is approximately three years and three months after it comes out.
