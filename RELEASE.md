@@ -64,7 +64,7 @@ For the actively supported versions as of January 2025, the following release cy
 | Python 3.8     | &#10060;            | 10-January-2024 (dropped)                |
 | Python 3.9     | &#10060;            | 15-July-2024 (dropped)                   |
 | Python 3.10    | &#10060;            | 27-January 2025 (dropped)                |
-| Python 3.11    | &#9989;             | 12-January 2026 (dropped)                |
+| Python 3.11    | &#9989;             | 14-January 2026 (dropped)                |
 | Python 3.12    | &#9989;             | January 2027 (expected)                  |
 | Python 3.13    | &#9989;             | January 2028 (expected)                  |
 | Python 3.14    | &#9989;             | January 2029 (expected)                  |
