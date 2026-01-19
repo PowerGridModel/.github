@@ -57,7 +57,7 @@ An older Python version may be removed from the automatic release cycle if:
 - at least three of those newer Python versions have been stable for at least three months; and
 - at least six months have passed since support for a previous stable Python version was dropped.
 
-For the actively supported versions as of January 2025, the following release cycle is expected:
+For the actively supported versions as of January 2026, the following release cycle is expected:
 
 | Python version | Currently supported | Scheduled/expected end of active support |
 | -------------- | ------------------- | ---------------------------------------- |
