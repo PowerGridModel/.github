@@ -17,7 +17,8 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 - Emsys
 - Energy Strategies
 - Enexis
-- Entso-E​
+- Entso-E
+- Göteborg Energi​
 - KU Leuven
 - London South Bank University
 - NTCS Energy
