@@ -55,7 +55,7 @@ datasets and configuration that may be user-provided.
 Treat all external inputs as untrusted, validate formats/schemas where possible and avoid unsafe deserialization
 (e.g. `pickle`) for untrusted files.
 If the visualizer is installed and used, note that it runs a local web server and opens a TCP port.
-You can report the vulnerabilities in the issues as a bug.
+You can report vulnerabilities in the issues as a bug.
 
 ### power-grid-model-io
 
@@ -66,4 +66,4 @@ In addition, execution is restricted to specific white-listed functions and modu
 Please refer to the relevant
 [security considerations](https://power-grid-model-io.readthedocs.io/en/stable/converters/tabular_converter.html#security-considerations)
 for more information.
-You can report the vulnerabilities in the issues as a bug.
+You can report vulnerabilities in the issues as a bug.
