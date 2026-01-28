@@ -28,6 +28,8 @@ If you find a vulnerability, please report it.
 
 If Private Vulnerability Reporting feature of GitHub is enabled for the repository on which you found the vulnerabilty,
 please use it to report the vulnerability.
+The administrators and maintainers of the project will actively monitor this and respond at the earliest occasion
+possible.
 
 On repositories for which Private Vulnerability Reporting is not enabled, please report vulnerabilities as bugs via the
 GitHub issues tab.
