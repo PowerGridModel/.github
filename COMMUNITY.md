@@ -17,20 +17,21 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 - Emsys
 - Energy Strategies
 - Enexis
-- Entso-E​
+- Entso-E
+- G&ouml;teborg Energi
 - KU Leuven
 - London South Bank University
 - NTCS Energy
 - Open source fintech inc.
 - Qcells
 - Ricerca Sistema Energetico
-- Sensor Networks LTD​
+- Sensor Networks LTD
 - Soptim
 - Stattnet SF
 - Stedin
-- Tsinghua University​
+- Tsinghua University
 - TU Delft
-- Universidad Tecnologica de Pereira​
+- Universidad Tecnologica de Pereira
 - XM S.A. E.S.P.
 
 ## Integration of Power Grid Model in other open-source tooling:
