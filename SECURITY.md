@@ -8,7 +8,9 @@ SPDX-License-Identifier: MPL-2.0
 
 ## Supported Versions
 
-This project uses a rolling release strategy. A new push(merge) to the `main` branch will trigger GitHub Actions to automatically release a new version. **All the bug fixes will be committed directly into the `main` branch and published in the latest release. 
+This project uses a rolling release strategy.
+A new push(merge) to the `main` branch will trigger GitHub Actions to automatically release a new version.
+**All the bug fixes will be committed directly into the `main` branch and published in the latest release.
 No effort will be spent on backporting bug fixes to previous versions!**
 
 | Version            | Supported |
@@ -22,7 +24,13 @@ In addition, Python libraries in this project are only released for [recent Pyth
 
 This project contains multiple repositories, each with different responsibilities, and therefore also different risks
 regarding vulnerabilities.
-You can report the vulnerabilities in the issues as a bug.
+If you find a vulnerability, please report it.
+
+If Private Vulnerability Reporting feature of GitHub is enabled for the repository on which you found the vulnerabilty,
+please use it to report the vulnerability.
+
+On repositories for which Private Vulnerability Reporting is not enabled, please report vulnerabilities as bugs via the
+GitHub issues tab.
 
 ### power-grid-model
 
