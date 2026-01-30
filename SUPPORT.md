@@ -39,9 +39,7 @@ Please refer to [this example notebook](https://power-grid-model.readthedocs.io/
 
 ## How to report a security vulnerability
 
-If you think you've found a potential vulnerability in this project, please
-email <powergridmodel-tsc@lists.lfenergy.org> to responsibly disclose it.
-See also [SECURITY.md](./SECURITY.md) for details.
+Please refer to [SECURITY.md](./SECURITY.md) for details on reporting a security update.
 
 ## Contributing a fix
 
