@@ -30,7 +30,7 @@ The TSC consists of the following members:
 Peter Salemink will chair the TSC.
 
 Any community member or Contributor can ask that something 
-be reviewed by the TSC by contacting the TSC at <dynamic.grid.calculation@alliander.com>.
+be reviewed by the TSC by contacting the TSC at <powergridmodel@lfenergy.org>.
 
 ## Maintainers
 
