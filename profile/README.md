@@ -31,6 +31,8 @@ Please have a look at the [workshop](https://github.com/PowerGridModel/power-gri
 
 Want to join the discussion? Look at our [discussion board](https://github.com/orgs/PowerGridModel/discussions)!
 
+Want to join our community meeting held every 8 weeks? Subscribe and join the [meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/91445523235?password=e565df23-7c6d-4d67-94e6-f5774cfd4745).
+
 ## Description
 
 To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
