@@ -7,13 +7,13 @@ assignees: ''
 
 ---
 
-**Before release**
+## Before release
 
 * [ ] Update [`VERSION`](#VERSION) file if applicable
 * [ ] Make PR
 * [ ] Merge PR
 
-**After release**
+## After release
 
 * [ ] Update the release notes
   * [ ] Add `Highlights` section if needed

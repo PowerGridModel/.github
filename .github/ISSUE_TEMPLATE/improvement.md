@@ -7,11 +7,16 @@ assignees: ''
 
 ---
 
-**Describe the problem**
+## Problem faced
 
 A clear and concise description of the current problem. Why we need to improve it?
 
-**Improvement proposal**
+## Improvement proposal
 
 A clear and concise description of the improvement proposal.
 If needed, provide multiple alternatives to the proposal.
+
+## Additional questions
+
+- [ ] Do you wish to discuss this improvement in the bi monthly PGM community meeting?
+Please join the [PGM community meeting](<https://zoom-lfx.platform.linuxfoundation.org/meeting/91445523235?password=e565df23-7c6d-4d67-94e6-f5774cfd4745>)
