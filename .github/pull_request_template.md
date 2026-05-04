@@ -1,6 +1,6 @@
 Fixes #issue_number
 
-### Changes proposed in this PR include:
+### Changes proposed in this PR include
 
 > Here you can elaborate on the chosen solution strategy, which changes did you make and which goal do they serve. Perhaps also which things are you still unsure of.
 
@@ -8,14 +8,16 @@ Fixes #issue_number
 -
 - ..
 
-### Could you please pay extra attention to the points below when reviewing the PR:
+### Could you please pay extra attention to the points below when reviewing the PR
 
 > Here you can point out modules or complex implementation that require special attention, .e.g have a look at module `foo.py` and `bar.py`.
 
-- 
-- 
+-
+-
 - ..
 
 ### Checks
 
 - [ ] If changes are related to CI/CD, are they verified via a manual run on this branch?
+- [ ] Do you wish to discuss this PR in the bi monthly community meeting?
+Please join the [PGM community meeting](<https://zoom-lfx.platform.linuxfoundation.org/meeting/91445523235?password=e565df23-7c6d-4d67-94e6-f5774cfd4745>)
