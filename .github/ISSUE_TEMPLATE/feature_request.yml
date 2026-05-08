@@ -8,6 +8,14 @@ title: "[FEATURE] *descriptive_name*"
 labels:
   - feature
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to register this feature request! 
+        Feel free to skip or leave brief answers in any other field. 
+        Any detail you can share helps, but don't let the form stop you from opening the issue. 
+        You can also edit the issue after creating it to add or remove more details.
+
   - type: textarea
     id: feature-description
     attributes:
