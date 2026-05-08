@@ -8,6 +8,14 @@ title: "[IMPROVEMENT] *descriptive_name*"
 labels:
   - improvement
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to register this improvement! 
+        Feel free to skip or leave brief answers in any other field. 
+        Any detail you can share helps, but don't let the form stop you from opening the issue. 
+        You can also edit the issue after creating it to add or remove more details.
+
   - type: textarea
     id: problem
     attributes:
