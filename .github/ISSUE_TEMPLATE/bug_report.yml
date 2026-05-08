@@ -1,0 +1,73 @@
+# SPDX-FileCopyrightText: Contributors to the Power Grid Model project <powergridmodel@lfenergy.org>
+#
+# SPDX-License-Identifier: MPL-2.0
+
+name: Bug report
+description: Create a report to help us improve
+title: "[BUG] *descriptive_name*"
+labels:
+  - bug
+body:
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: input-validity
+    attributes:
+      label: Input Data Validity
+      options:
+        - label: >-
+            I checked the validity of input data using the helper function
+            ([examples here](https://power-grid-model.readthedocs.io/en/stable/examples/Validation%20Examples.html)).
+
+  - type: textarea
+    id: data-dump
+    attributes:
+      label: Data Dump
+      description: >
+        Please dump the input (and maybe also the output) data into json files using the helper function, if applicable.
+        [Examples here](https://power-grid-model.readthedocs.io/en/stable/examples/Make%20Test%20Dataset.html#export-to-json)
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior, including some calling code.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: >-
+        If applicable, add screenshots to help explain your problem.
+        You can drag and drop images directly into this field.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+
+  - type: checkboxes
+    id: community-meeting
+    attributes:
+      label: Community Meeting
+      options:
+        - label: >
+            I wish to discuss this bug in the bi-monthly PGM community meeting.
+            Please join the [PGM community meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/91445523235?password=e565df23-7c6d-4d67-94e6-f5774cfd4745).
