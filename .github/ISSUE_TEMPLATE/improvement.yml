@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: Contributors to the Power Grid Model project <powergridmodel@lfenergy.org>
+#
+# SPDX-License-Identifier: MPL-2.0
+
+name: Improvement
+description: Create a proposal for improving the internal implementation
+title: "[IMPROVEMENT] *descriptive_name*"
+labels:
+  - improvement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem faced
+      description: A clear and concise description of the current problem. Why do we need to improve it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Improvement proposal
+      description: >
+        A clear and concise description of the improvement proposal.
+        If needed, provide multiple alternatives to the proposal.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: community-meeting
+    attributes:
+      label: Community Meeting
+      options:
+        - label: >
+            I wish to discuss this improvement in the bi-monthly PGM community meeting.
+            Please join the [PGM community meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/91445523235?password=e565df23-7c6d-4d67-94e6-f5774cfd4745).
