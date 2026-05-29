@@ -8,8 +8,9 @@ SPDX-License-Identifier: MPL-2.0
 
 [![License: MPL2.0](https://img.shields.io/badge/License-MPL2.0-informational.svg)](https://github.com/PowerGridModel/.github/blob/main/LICENSE)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7298/badge)](https://bestpractices.coreinfrastructure.org/projects/7298)
-[![Downloads](https://static.pepy.tech/badge/power-grid-model)](https://pepy.tech/project/power-grid-model)
-[![Downloads](https://static.pepy.tech/badge/power-grid-model/month)](https://pepy.tech/project/power-grid-model)
+[![PyPI Downloads](https://static.pepy.tech/badge/power-grid-model)](https://pepy.tech/project/power-grid-model)
+[![PyPI Downloads](https://static.pepy.tech/badge/power-grid-model/month)](https://pepy.tech/project/power-grid-model)
+[![Anaconda-Server Downloads](https://anaconda.org/conda-forge/power-grid-model/badges/downloads.svg)](https://anaconda.org/conda-forge/power-grid-model)
 
 [![](https://github.com/PowerGridModel/.github/blob/main/artwork/svg/color.svg)](#)
 
@@ -18,7 +19,7 @@ Power Grid Model is an open-source project aiming for high-performance calculati
 This project is part of [Linux Foundation Energy](https://lfenergy.org/projects/power-grid-model/).
 Please subscribe our [mailing list](https://lists.lfenergy.org/g/powergridmodel) to be kept updated. You can easily subscribe by sending an empty email to: [powergridmodel+subscribe@lists.lfenergy.org](mailto:powergridmodel+subscribe@lists.lfenergy.org)
 
-The calculation core package [`power-grid-model`](https://github.com/PowerGridModel/power-grid-model) is available at [PyPI repository](https://pypi.org/project/power-grid-model/), 
+The calculation core package [`power-grid-model`](https://github.com/PowerGridModel/power-grid-model) is available at [PyPI repository](https://pypi.org/project/power-grid-model/),
 with its [documentation](https://power-grid-model.readthedocs.io/).
 
 The data conversion package [`power-grid-model-io`](https://github.com/PowerGridModel/power-grid-model-io) is available at [PyPI repository](https://pypi.org/project/power-grid-model-io/),
