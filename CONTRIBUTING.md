@@ -171,6 +171,43 @@ the work. For more information see the Code review guideline.
 1. Upon receiving the sign-off of one of the maintainers you may merge your changes, or if you
    do not have permission to do that, you may request a maintainer to merge it for you.
 
+## AI‑Assisted Contributions 
+AI tools (e.g. LLMs or coding assistants) can be helpful when contributing. We welcome their use, as long as contributions remain clear, maintainable, and aligned with the following guidelines.
+
+### General expectations
+- You remain fully responsible for your contribution, regardless of AI usage  
+- You should understand and be able to explain the code you submit  
+- Treat AI as a support tool, not as an autonomous contributor  
+
+### Transparency
+- If AI played a significant role, please disclose this in your pull request or commit message   (e.g. `Assisted-by: <tool name>`)  
+- Minor uses (e.g. fixing grammar or formatting) do not need to be mentioned  
+
+### Quality standards
+AI-assisted contributions must meet the same standards as any other contribution:
+
+- Include tests where applicable  
+- Update documentation if needed  
+- Follow coding style and project conventions 
+- Clearly describe the problem and your approach  
+
+Please make sure to review and validate all generated code. AI tools can produce incorrect, outdated, or insecure patterns.
+
+### Scope and collaboration
+- Prefer small, well-scoped pull requests that are easy to review  
+- Engage with maintainers via issues if your change is substantial  
+- Avoid submitting large or bulk-generated changes without prior discussion, as they may be rejected.
+
+### Security and licensing
+- Review generated code for potential vulnerabilities  
+- Ensure compliance with project licensing and proper attribution of reused content  
+
+### AI agents
+Autonomous agents or bots are not typical contributors to this project. 
+- If you plan to use an AI agent, discuss this with the maintainers first
+- AI agents should identify themselves as AI  
+- AI agents that generate low-value or disruptive contributions may be restricted or blocked  
+
 ## Attribution
 
 This Contributing.md is adapted from Google
