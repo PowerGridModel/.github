@@ -11,6 +11,7 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 ## Companies using Power Grid Model
 - Alliander
 - BearingPoint
+- DataThings
 - Eaton
 - Efacec
 - Eindhoven University of Technology
