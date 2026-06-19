@@ -77,6 +77,7 @@ To honor their contribution, we mention their names as non-code contributors as 
 * Jacco Heres: algorithm test
 * Thijs Baaijen: test for macOS support
 * Marc van Raalte: algorithm design
+* Chenguang Wang: algorithm design of transformer tap regulator
 
 ### Historical Contributors
 
@@ -90,7 +91,6 @@ in this project before it became open source:
 * Démian Janssen
 * Peter Salemink
 * Tony Xiang
-* Chenguang Wang: algorithm design
 
 ## PyPI project management
 
