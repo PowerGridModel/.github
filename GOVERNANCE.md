@@ -49,13 +49,12 @@ The current maintainers of this project are:
 1. Peter Salemink
 1. Nitish Bharambe
 1. Martijn Govers
-1. Laurynas Jagutis
-1. Chenguang Wang
 1. Zhen Wang
 1. Jerry Guo
 1. Santiago Figueroa Manrique
 1. Jaap Schouten
 1. Thijs Baaijen
+1. Vincent Koppen
 
 Any community member or Contributor can ask a question or raise an issue to the maintainers by logging a GitHub issue.
 
@@ -77,6 +76,7 @@ To honor their contribution, we mention their names as non-code contributors as 
 * Werner van Westering: algorithm design
 * Jacco Heres: algorithm test
 * Thijs Baaijen: test for macOS support
+* Marc van Raalte: algorithm design
 
 ### Historical Contributors
 
@@ -90,6 +90,8 @@ in this project before it became open source:
 * Démian Janssen
 * Peter Salemink
 * Tony Xiang
+* Chenguang Wang: algorithm design
+* Laurynas Jagutis
 
 ## PyPI project management
 
