@@ -91,7 +91,6 @@ in this project before it became open source:
 * Peter Salemink
 * Tony Xiang
 * Chenguang Wang: algorithm design
-* Laurynas Jagutis
 
 ## PyPI project management
 
