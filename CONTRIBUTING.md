@@ -141,6 +141,14 @@ There are other great tools out there to manage DCO signoffs for developers to m
 * Additionally, it is possible to use shell scripting to automatically apply the sign-off. For an example for bash to be put into a .bashrc file, see [here](https://wiki.lfenergy.org/display/HOME/Contribution+and+Compliance+Guidelines). 
 * Alternatively, you can add `prepare-commit-msg hook` in .git/hooks directory. For an example, see [here](https://github.com/Samsung/ONE-vscode/wiki/ONE-vscode-Developer's-Certificate-of-Origin).
 
+## Automated workflow review process
+
+In all repositories, automated workflows via github actions are used to evaluate code quality. Some basic checks are already covered by [Pre-commit hooks](#pre-commit-hooks).
+More extensive checks are not included in the pre-commit hooks, such as building the full C++ project, running `clang-tidy`, and building documentation with Sphinx and Read the Docs.
+These checks are mandatory before any merge. For security reasons, maintainers review each pull request every time before approving workflow runs for a commit.
+This increases review effort and can delay the overall process. 
+When possible, contributors are encouraged to run and fix these checks on their own development machine before starting the [Code reviews](#code-reviews) process.
+
 ## Code reviews
 
 All patches and contributions, including patches and contributions by project members, require review by one of the maintainers of the project. We
