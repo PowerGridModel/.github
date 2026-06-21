@@ -34,6 +34,16 @@ possible.
 On repositories for which Private Vulnerability Reporting is not enabled, please report vulnerabilities as bugs via the
 GitHub issues tab.
 
+## Third-Party Software and Development Tools
+
+Like most software projects, our repositories rely on external dependencies.
+We aim to keep these dependencies to a minimum and select sources that are mature, widely used, and trusted.
+Users remain responsible for evaluating whether these dependencies satisfy their own security requirements.
+
+We also provide recommendations for development tools in our build guides and VS Code extensions in the `.vscode/extentions.json` for each repository.
+These recommendations are optional.
+Developers should evaluate them against their own security policies before installation and use.
+
 ### power-grid-model
 
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7298/badge)](https://bestpractices.coreinfrastructure.org/projects/7298)
