@@ -117,11 +117,24 @@ When a feature/fix is finished it is merged back into `main` via a
 In case of major version release with new features and/or breaking changes, we might temporarily create a 
 `release/` branch to hold all the changes until they are merged into `main`.
 
+## Commit signature verification
+
+This project enforces use of cryptographically verifiable commit signatures using one of the
+[standard GitHub ways](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
+You can use, e.g., GPG keys or SSH keys.
+To set yourself for verified commits, please follow the steps in the respective
+[GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
+
+Note: this differs from [DCO](#signing-the-developer-certificate-of-origin-dco) (see below), because DCO
+is a legally binding signoff (similar to the "I have read the terms and conditions" checkbox you may find
+elsewhere), while [verified commits](#commit-signature-verification) use a cryptographic signature for
+security purposes.
+
 ## Signing the Developer Certificate of Origin (DCO)
 
 This project utilize a Developer Certificate of Origin (DCO) to ensure that 
 each commit was written by the author or that the author has the appropriate rights 
-necessary to contribute the change. 
+necessary to contribute the change.
 Specifically, we utilize [Developer Certificate of Origin, Version 1.1](http://developercertificate.org/), 
 which is the same mechanism that the Linux® Kernel and many other communities use to manage code contributions. 
 The DCO is considered one of the simplest tools for sign-offs from contributors as the representations are 
@@ -140,6 +153,10 @@ There are other great tools out there to manage DCO signoffs for developers to m
 * [GitHub UI automatic signoff capabilities via custom plugin]( https://github.com/scottrigby/dco-gh-ui ) for adding the signoff automatically to commits made with the GitHub browser UI
 * Additionally, it is possible to use shell scripting to automatically apply the sign-off. For an example for bash to be put into a .bashrc file, see [here](https://wiki.lfenergy.org/display/HOME/Contribution+and+Compliance+Guidelines). 
 * Alternatively, you can add `prepare-commit-msg hook` in .git/hooks directory. For an example, see [here](https://github.com/Samsung/ONE-vscode/wiki/ONE-vscode-Developer's-Certificate-of-Origin).
+
+Note: this differs from [verified commits](#commit-signature-verification), because DCO is a legally binding signoff
+(similar to the "I have read the terms and conditions" checkbox you may find elsewhere), while
+[verified commits](#commit-signature-verification) use a cryptographic signature for security purposes.
 
 ## Automated workflow review process
 
