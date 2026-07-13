@@ -119,10 +119,8 @@ In case of major version release with new features and/or breaking changes, we m
 
 ## Commit signature verification
 
-This project enforces use of cryptographically verifiable commit signatures using one of the
-[standard GitHub ways](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
-You can use, e.g., GPG keys or SSH keys.
-To set yourself for verified commits, please follow the steps in the respective
+This project enforces the use of cryptographically verifiable commit signatures using one of GitHub's supported methods (for example, GPG or SSH keys).
+To set up verified commits, please follow the steps in the
 [GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
 
 Note: this differs from [DCO](#signing-the-developer-certificate-of-origin-dco) (see below), because DCO
