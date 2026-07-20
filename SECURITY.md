@@ -79,3 +79,42 @@ Please refer to the relevant
 for more information.
 You can report vulnerabilities in private via the [Private Vulnerability Reporting](https://github.com/PowerGridModel/power-grid-model-io/security/advisories)
 tab on the repository.
+
+## Verifying releases
+
+Projects in the PowerGridModel organization, including [`power-grid-model`](https://github.com/PowerGridModel/power-grid-model), [`power-grid-model-io`](https://github.com/PowerGridModel/power-grid-model-io), and [`power-grid-model-ds`](https://github.com/PowerGridModel/power-grid-model-ds), publish cryptographically verifiable releases through GitHub and PyPI.
+
+Both platforms use [Sigstore](https://www.sigstore.dev)-based keyless signing. No project-managed,long-lived private signing key or public verification key is required. Verification relies on short-lived, identity-bound signing certificates and the corresponding Sigstore trust infrastructure.
+
+### GitHub releases
+
+The PowerGridModel repositories use [GitHub immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases).
+
+For each immutable release, GitHub generates a cryptographically signed release attestation covering the release tag, associated commit, and attached release assets. Immutable release tags and attached release assets cannot be modified or replaced after publication.
+
+To verify a complete release with the GitHub CLI, run:
+```shell
+gh release verify <tag> \
+--repo PowerGridModel/<repository>
+```
+
+### PyPI releases
+
+Python distributions published through PyPI Trusted Publishing carry a PEP [740](https://peps.python.org/pep-0740/) attestation. Each attestation binds an exact wheel to the GitHub Actions Trusted Publisher identity that published it. PyPI verifies these attestations during upload and displays the provenance for each distribution file.
+
+For example, a locally downloaded `power-grid-model` wheel can be verified from the directory containing the wheel using:
+```shell
+uv run pypi-attestations verify pypi \
+--repository https://github.com/PowerGridModel/power-grid-model \
+./<wheel-filename>.whl
+```
+
+This verifies that the local wheel matches the distribution attested on PyPI and that it was published by the expected repository identity. For more information, refer to the `pypi-attestations` [documentation](https://pypi.org/project/pypi-attestations/).
+
+### Homebrew formula
+
+Only the `power-grid-model` library is distributed via Homebrew, however, precompiled bottles aren't distributed. Instead, the `powergridmodel/pgm` tap provides a formula that builds the library locally from source. The formula references a version tag associated with an immutable and cryptographically attested GitHub release. In addition, Homebrew verifies the `power-grid-model` checksum before building the library.
+
+### conda-forge releases
+
+Only the `power-grid-model` library is distributed via conda-forge. These packages are independently rebuilt and published by the conda-forge project instead of by the PowerGridModel organization. The conda-forge feedstock pins the upstream source by SHA-256, but at the time of writting, cryptographic package attestations are not exposed for the `power-grid-model` packages through the conda-forge distribution channel.
