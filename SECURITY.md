@@ -117,4 +117,4 @@ Only the `power-grid-model` library is distributed via Homebrew, however, precom
 
 ### conda-forge releases
 
-Only the `power-grid-model` library is distributed via conda-forge. These packages are independently rebuilt and published by the conda-forge project instead of by the PowerGridModel organization. The conda-forge feedstock pins the upstream source by SHA-256, but at the time of writting, cryptographic package attestations are not exposed for the `power-grid-model` packages through the conda-forge distribution channel.
+The `power-grid-model` and `power-grid-model-io` libraries are distributed via conda-forge. These packages are independently rebuilt and published by the conda-forge project instead of by the PowerGridModel organization. The conda-forge feedstock pins the upstream source by SHA-256, but at the time of writting, cryptographic package attestations are not exposed for the Power Grid Model organization packages through the conda-forge distribution channel.
