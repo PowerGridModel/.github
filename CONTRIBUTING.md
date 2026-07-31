@@ -64,23 +64,26 @@ This project follows [LLVM coding standards](https://llvm.org/docs/CodingStandar
 Tip: Use [clang-format](https://clang.llvm.org/docs/ClangFormat.html) to format your C++ code.
 
 ## pre-commit hooks
+
 This project uses [pre-commit](https://pre-commit.com/) to run a list of checks (and perform some automatic
 corrections) to your code (style) before each commit. It is up to the developer to choose whether you would like to 
 use this tool or not. The goal is to make sure that each commit will pass the quality checks in the github actions
-workflow. Currently, these hooks are defined in {{ "[`.pre-commit-config.yaml`]({}/.pre-commit-config.yaml)".format(gh_link_head_blob) }}:
+workflow. Currently, these hooks are defined in {{ "[`.pre-commit-config.yaml`]({}/.pre-commit-config.yaml)".format(gh_link_head_blob) }}.
+These hooks may include, for example:
+
 * **reuse**: check if all licence headers and files are in place
-* **isort**: group and sort import statements 
-* **black**: check and correct code style in a very strict manner
+* **ruff**: check and correct code style in a very strict manner
 * **mypy**: checks type hinting and data types in general (static type checker) 
-* **pylint**: check code style and comments
 * **pytest**: run all unit tests
 
 You can manually run pre-commit whenever you like:
+
 ```bash
 pre-commit run
 ```
 
 Or you can install it as a git pre-commit hook. In this case a commit will be aborted whenever one of the hooks fail.
+
 ```bash
 pre-commit install
 ```
@@ -90,6 +93,26 @@ As using the pre-commit tool is not mandatory, you can always skip the tool:
 ```bash
 git commit ... --no-verify
 ```
+
+### Using pre-commit hooks with custom dependency index
+
+It may happen that you are using a custom package index, like a custom pip index instead of PyPI.
+This is especially common in enterprise environments.
+In this case, pre-commit may interfere with your lock-files, as they are likely to reflect the custom package index,
+but pre-commit will stash your unstaged files before running the hooks.
+Although tedious, a possible workaround is to prevent pre-commit from stashing your lock-file in the first place, e.g.
+
+```bash
+git update-index --no-skip-worktree uv.lock  # not needed the first time you run this
+git checkout uv.lock                         # not needed the first time you run this
+git checkout <branch>
+git update-index --skip-worktree uv.lock
+uv lock --upgrade
+# now you can run pre-commit as usual
+```
+
+Beware, however, that the entire sequence needs to be repeated before performing actions like switching branches again.
+It is recommended to create a short-hand functionality on your device to automate this.
 
 ## REUSE Compliance
 
