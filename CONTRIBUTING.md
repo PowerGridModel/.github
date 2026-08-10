@@ -257,7 +257,7 @@ To help our maintainers review your work efficiently, please follow these size a
 
 ### Keep PRs Manageable
 * **Prefer Smaller PRs**: We highly appreciate contributions that come in a manageable size.
-* **Break Up Large Changes**: If your contribution involves substantial code changes, 
+* **Break Up Large Changes**: If your contribution involves substantial code changes,
 please split it into multiple smaller, logical Pull Requests.
 
 ### Our Review Process
@@ -268,11 +268,11 @@ Our maintainers review all Pull Requests based on three primary criteria:
 
 ### Acceptance and Code Style
 * **Core Logic**: We aim to process and merge contributions as long as the underlying mathematics and logic are sound.
-* **Stylistic Adjustments**: If your coding style or standards differ from the rest of the codebase, 
+* **Stylistic Adjustments**: If your coding style or standards differ from the rest of the codebase,
 we may merge the core functionality first and initiate follow-up PRs or discussions to handle code formatting.
 
 ### Critical Features & Components
-* **Maintainer Notification**: For changes to critical features or core components, 
+* **Maintainer Notification**: For changes to critical features or core components,
 we require a heads-up and prior discussion with the maintainers.
 * **Review Rights**: We reserve the right to limit or scope major changes to these sensitive parts of the project.
 
