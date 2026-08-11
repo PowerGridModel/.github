@@ -236,13 +236,9 @@ AI-assisted contributions must meet the same standards as any other contribution
 - Update documentation if needed  
 - Follow coding style and project conventions 
 - Clearly describe the problem and your approach  
+- Avoid submitting large or bulk-generated changes without prior discussion, as they may be rejected.
 
 Please make sure to review and validate all generated code. AI tools can produce incorrect, outdated, or insecure patterns.
-
-### Scope and collaboration
-- Prefer small, well-scoped pull requests that are easy to review  
-- Engage with maintainers via issues if your change is substantial  
-- Avoid submitting large or bulk-generated changes without prior discussion, as they may be rejected.
 
 ### Security and licensing
 - Review generated code for potential vulnerabilities  
@@ -253,6 +249,32 @@ Autonomous agents or bots are not typical contributors to this project.
 - If you plan to use an AI agent, discuss this with the maintainers first
 - AI agents should identify themselves as AI  
 - AI agents that generate low-value or disruptive contributions may be restricted or blocked  
+
+## Contribution Workflow
+
+We welcome and appreciate all contributions to our project. 
+To help our maintainers review your work efficiently, please follow these size and review guidelines:
+
+### Keep PRs Manageable
+* **Prefer Smaller PRs**: We highly appreciate contributions that come in a manageable size.
+* **Break Up Large Changes**: If your contribution involves substantial code changes,
+please split it into multiple smaller, logical Pull Requests.
+
+### Our Review Process
+Our maintainers review all Pull Requests based on three primary criteria:
+* **Functionality**: Ensuring the feature works as intended.
+* **Input-Output Matching**: Verifying data consistency and correctness.
+* **API Standards**: Checking alignment with our existing public interfaces.
+
+### Acceptance and Code Style
+* **Core Logic**: We aim to process and merge contributions as long as the underlying mathematics and logic are sound.
+* **Stylistic Adjustments**: If your coding style or standards differ from the rest of the codebase,
+we may merge the core functionality first and initiate follow-up PRs or discussions to handle code formatting.
+
+### Critical Features & Components
+* **Maintainer Notification**: For changes to critical features or core components,
+we require a heads-up and prior discussion with the maintainers.
+* **Review Rights**: We reserve the right to limit or scope major changes to these sensitive parts of the project.
 
 ## Attribution
 
