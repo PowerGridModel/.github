@@ -20,7 +20,7 @@ you can ask a question in the [Discussions](https://github.com/orgs/PowerGridMod
 If you have ideas for new features or suggestions for improving existing functionality or documentations, 
 you can also propose it in the [Discussions](https://github.com/orgs/PowerGridModel/discussions) tab.
 
-# Professional Support
+## Professional Support
 Organizations looking for professional services related to Power Grid Model can engage one of the providers listed in the [Power Grid Model Support Providers Directory](https://lf-energy.atlassian.net/wiki/x/BABbVQ).
 
 ## How to report a bug
