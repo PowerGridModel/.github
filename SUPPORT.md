@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: Contributors to the Power Grid Model project <powergridm
 SPDX-License-Identifier: MPL-2.0
 -->
 
-# Getting Help
+# Get in Contact
 
 There are a few ways to connect with the Power Grid Model project:
 
@@ -14,16 +14,19 @@ There are a few ways to connect with the Power Grid Model project:
 ## How to ask for help, suggest a feature, or give recommendations.
 
 If you have trouble installing, building, or using Power Grid Model, 
-but there's not yet reason to suspect you've encountered a genuine bug,
+but there's no reason yet to suspect you've encountered a bug,
 you can ask a question in the [Discussions](https://github.com/orgs/PowerGridModel/discussions) tab of the organization.
 
-If you have an idea for a new feature or some recommendations for existing features or documentations, 
+If you have ideas for new features or suggestions for improving existing functionality or documentations, 
 you can also propose it in the [Discussions](https://github.com/orgs/PowerGridModel/discussions) tab.
+
+# Professional Support
+Organizations looking for professional services related to Power Grid Model can engage one of the providers listed in the [Power Grid Model Support Providers Directory](https://lf-energy.atlassian.net/wiki/x/BABbVQ).
 
 ## How to report a bug
 
-This project manages bug and enhancement using the GitHub issue tracker. 
-The various issue templates will guide you on making an effective report.
+This project manages bugs and enhancements using the GitHub issue tracker. 
+The various issue templates will guide you in creating an effective report.
 
 ### Input data validity check
 
