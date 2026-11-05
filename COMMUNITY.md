@@ -11,6 +11,7 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 ## Companies using Power Grid Model
 - Alliander
 - BearingPoint
+- Bright Cubes
 - DataThings
 - Eaton
 - Efacec
@@ -19,11 +20,14 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 - Energy Strategies
 - Enexis
 - Entso-E
+- Essential Energy
+- GEPCO
 - G&ouml;teborg Energi
 - KU Leuven
 - London South Bank University
 - NTCS Energy
 - Open source fintech inc.
+- PSI
 - Qcells
 - Ricerca Sistema Energetico
 - Sensor Networks LTD
@@ -33,6 +37,7 @@ Anyone using Power Grid Model is free to add their company to the lists below.
 - Tsinghua University
 - TU Delft
 - Universidad Tecnologica de Pereira
+- Vattenfall
 - XM S.A. E.S.P.
 
 ## Integration of Power Grid Model in other open-source tooling:
